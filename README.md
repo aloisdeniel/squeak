@@ -1,2 +1,19 @@
-# squeak
-A simple private chat server with its butler.
+
+## Install
+
+```sh
+$ npm install --save 
+```
+
+
+## Usage
+
+```js
+var  = require('');
+
+('Rainbow');
+```
+
+## License
+
+MIT © []()

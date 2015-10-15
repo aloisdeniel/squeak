@@ -1,0 +1,44 @@
+{
+  "name": "squeak",
+  "version": "1.0.0",
+  "description": "A simple private chat server with its butler.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp",
+    "prepublish": "gulp prepublish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aloisdeniel/squeak.git"
+  },
+  "keywords": [
+    "chat",
+    "developer",
+    "team",
+    "bot",
+    "private"
+  ],
+  "author": "Aloïs Deniel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aloisdeniel/squeak/issues"
+  },
+  "homepage": "https://github.com/aloisdeniel/squeak#readme",
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-nsp": "^0.4.5",
+    "gulp-plumber": "^1.0.0",
+    "webpack": "^1.12.2"
+  },
+  "dependencies": {
+    "koa": "^1.1.0",
+    "socket.io": "^1.3.7"
+  }
+}
